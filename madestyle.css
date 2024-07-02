@@ -1,0 +1,136 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.button{
+	margin-bottom: 12px;
+}
+.wrapper{
+	background-image: url("2.jpg");
+	height:500px;
+	width:70%;
+	background-size:cover;
+	margin-left: 15%;
+	background-color:white;
+}
+.war{
+	width: 70%;
+	height: 72px;
+	background-color:white;
+	line-height: 60px;
+	margin-left: 15%;
+	border:solid;
+	border-color: red;
+}
+
+nav{
+	width: 100%;
+	height: 61px;
+	background-color:gray;
+	line-height: 60px;
+	border:solid;
+	border-color:red;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	margin-right: 1.9rem;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+}
+img{
+	width: 14%;
+		margin-top: -4%;
+} 
+nav ul li:hover{
+	background-color: gray;
+	color: #000;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+}
+.section{
+width: 80%;
+margin: auto;
+overflow: hidden;
+margin-top: 4%;
+}
+.section h1{
+	color: #fff;
+	line-height: 50px;
+}
+.section p{
+	color: gray;
+}
+.btn-1{
+	background-color: orangered;
+	padding: 0.7rem 1rem;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+.features{
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+.features button{
+	padding: 0.7rem 2rem;
+	margin-right: 2rem;
+	font-size: 1.2rem;
+	opacity: 0.7;
+}
+showcase h1{
+margin-top: 5%;
+margin-bottom:5%;
+text-align: center;
+}
+
+#courses{
+display: flex;
+text-align: center;
+}
+#courses img{
+	height: 200px;
+	width: 250px;
+	border-radius: 10px;
+	border: 2px solid #000;
+}
+.apply{
+	margin-top: 4%;
+	background-color: orangered;
+	padding: 0.7rem 1rem;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+.footer{
+	height: 4%;
+	width:25%;
+	background-color: yellow;
+	margin-left: 60%;
+	margin-top: -1%;
+}
+}
+.img{
+	margin-top:0px;
+	margin-right:5px;
+}
+.b{
+	height: 50%;
+	width:70%;
+	background-color: white;
+	margin-left: 14.8%;
+	border: solid;
+	border-color: red;
+}

@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+body{
+	background-image: url('image.jpg');
+	height:700px;
+	width: :70%;
+	background-size: cover;
+}
+.menu-bar{
+	background-color: #334;
+	text-align: center;
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 170px;
+	margin: 5px;
+	padding: 17px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover{
+
+	background:brown;
+	border-radius: 3px;
+
+}
+.sub-menu-1{
+	display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1{
+display: block;
+position: absolute;
+background-color: #334;
+margin-top: 16px;
+text-align: center;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display:block;
+	margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 li{
+	width: 150px;
+	padding: 10px;
+	background: brown;
+	border-radius: 0;
+	text-align:left; 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color:blue;
+}
+
+.hover-me:hover .sub-menu-2
+{
+position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background:rgb(0,100,0);
+
+}
+.wrapper{
+background-image: url('image.jpg');
+	height:700px;
+	width: :70%;
+	background-size: cover;
+
+}
+footer{
+	background-color:#334;
+	color: black;
+	text-align: center;
+	padding:17px;
+	margin-top: 2%;
+}
